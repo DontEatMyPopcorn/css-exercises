@@ -1,0 +1,19 @@
+.cool {
+    background-color:rgb(242, 142, 142);
+    font-family:Verdana, "DejaVu Sans", sans-serif;
+}
+
+.cooler {
+    font-size:24px;
+}
+
+#numeroDos {
+    color:blue;
+    font-size:36px;
+}
+
+#numeroQuatro {
+    background-color: rgb(140, 243, 114);
+    font-size:24px;
+    font-weight: bold;
+}
