@@ -26,4 +26,29 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  flex-grow: 1;
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap:12px;
+  margin: 24px;
+
+}
+
+.card {
+  padding: 16px;
+  width: 250px;
+  flex-shrink: 0;
 }
